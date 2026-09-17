@@ -102,7 +102,7 @@ async function renderDetail() {
           <span class="badge">${escapeHtml(p.condition)}</span>
           <h1>${escapeHtml(p.name)}</h1>
           <div class="detail-price">${escapeHtml(p.price)}</div>
-          <p class="detail-description">${escapeHtml(p.description)}</p>
+          <p class="detail-description">${p.description}</p>
           <table class="spec-table">
             <tr><td>Category</td><td>${escapeHtml(p.category)}</td></tr>
             <tr><td>Model</td><td>${escapeHtml(p.model)}</td></tr>
