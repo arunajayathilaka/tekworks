@@ -1,7 +1,7 @@
 const CSV_FILE = "products.csv";
 
 // Change this to your WhatsApp number, including country code.
-const WHATSAPP_NUMBER = "+6582119327";
+const WHATSAPP_NUMBER = "+94711350060";
 
 async function loadProducts() {
   const response = await fetch(CSV_FILE);
